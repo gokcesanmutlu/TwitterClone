@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #242424;
+  min-height: 100vh;
+  color: white;
+}
+
+.feed {
+  display: grid;
+  grid-template-columns: 1fr minmax(400px, 700px) 1.5fr;
+}
