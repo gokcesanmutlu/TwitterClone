@@ -1,7 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import AuthPage from './pages/AuthPage';
-import FeedPage from './pages/FeedPage';
-import { auth } from "./firebase/config";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AuthPage from "./pages/AuthPage";
+import FeedPage from "./pages/FeedPage";
 import ProtectedRoute from "./pages/ProtectedRoute";
 
 const App = () => {
@@ -17,7 +16,7 @@ const App = () => {
         </Route>
       </Routes>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default App
+export default App;

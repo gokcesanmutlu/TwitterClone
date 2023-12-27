@@ -63,13 +63,11 @@ const AuthPage = () => {
       });
   };
 
-
   // google ile giriş
   const loginWithGoogle = () => {
     //signInWithRedirect yapsaydık aşağıdaki fonksiyonu, popup açmadan aynı ekranda doğrudan google hesabı seçmeye yönlendirirdi.
-    signInWithPopup(auth, provider)
-      .then((navigate("/feed")))
-  }
+    signInWithPopup(auth, provider).then(navigate("/feed"));
+  };
 
   return (
     <section className="h-screen grid place-items-center">
@@ -82,7 +80,10 @@ const AuthPage = () => {
         <h1 className="text-center font-bold text-xl">Enter to Twitter</h1>
 
         {/* google button */}
-        <button onClick={loginWithGoogle} className="flex items-center bg-white py-2 px-10 rounded-full text-black cursor-pointer gap-3 transition hover:bg-gray-300">
+        <button
+          onClick={loginWithGoogle}
+          className="flex items-center bg-white py-2 px-10 rounded-full text-black cursor-pointer gap-3 transition hover:bg-gray-300"
+        >
           <img className="h-[20px]" src="/google-logo.svg" alt="" />
           <span className="whitespace-nowrap">Sign in with Google</span>
         </button>

@@ -1,43 +1,42 @@
-
-import { BiHomeCircle } from 'react-icons/bi';
-import { AiOutlineBell, AiOutlineMail } from 'react-icons/ai';
-import { CiViewList } from 'react-icons/ci';
-import { BsBookmark } from 'react-icons/bs';
-import { AiOutlineCheckCircle } from 'react-icons/ai';
-import { CgProfile } from 'react-icons/cg';
-import { PiDotsThreeCircle } from 'react-icons/pi';
+import { BiHomeCircle } from "react-icons/bi";
+import { AiOutlineBell, AiOutlineMail } from "react-icons/ai";
+import { CiViewList } from "react-icons/ci";
+import { BsBookmark } from "react-icons/bs";
+import { AiOutlineCheckCircle } from "react-icons/ai";
+import { CgProfile } from "react-icons/cg";
+import { PiDotsThreeCircle } from "react-icons/pi";
 
 export const navSections = [
   {
-    title: 'Home',
+    title: "Home",
     icon: <BiHomeCircle />,
   },
   {
-    title: 'Notification',
+    title: "Notification",
     icon: <AiOutlineBell />,
   },
   {
-    title: 'Messages',
+    title: "Messages",
     icon: <AiOutlineMail />,
   },
   {
-    title: 'Lists',
+    title: "Lists",
     icon: <CiViewList />,
   },
   {
-    title: 'Bookmark',
+    title: "Bookmark",
     icon: <BsBookmark />,
   },
   {
-    title: 'Approved',
+    title: "Approved",
     icon: <AiOutlineCheckCircle />,
   },
   {
-    title: 'Profile',
+    title: "Profile",
     icon: <CgProfile />,
   },
   {
-    title: 'More..',
+    title: "More..",
     icon: <PiDotsThreeCircle />,
   },
 ];

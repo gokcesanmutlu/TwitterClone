@@ -1,3 +1,5 @@
+# TwitterClone
+
 # Kütüphaneler 
 - react-router-dom
 - react-toastify
@@ -5,5 +7,3 @@
 - moment
 - uuid
 - tailwind
-
-# TwitterClone
